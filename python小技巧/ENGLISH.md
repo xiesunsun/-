@@ -1,0 +1,13 @@
+- [ ] paralle:平行的   adj
+- [ ] lattice :网格    n
+- [ ] crux: 关键      n
+- [ ] illusion  幻想 n
+- [ ] batch 批 n
+- [ ]   lexicographically  按字典序排序 adv
+- [ ]     simultaneously 同时 adv
+- [ ]     scope 范围 n
+- [ ]      adjacent  邻近的 adj
+- [ ]      headquarters  总部 n
+- [ ]      iteration 迭代 n
+- [ ]       subscriptable  可下标的 adj
+

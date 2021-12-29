@@ -1,10 +1,17 @@
-n=eval(input())
-data=list(map(int,input().split(' ')))
-lenth=len(data)
-step=0
-for i in range(lenth):
-    for j in range(i+1,lenth):
-        if data[i]>data[j]:
-            step+=1
-            data[i],data[j]=data[j],data[i]
-print(step)
+sum=0
+def bubbleSort(arr,n):
+    global sum 
+    # 遍历所有数组元素
+    for i in range(n):
+ 
+        # Last i elements are already in place
+        for j in range(0, n-i-1):
+            
+            if arr[j] > arr[j+1] :
+                sum+=1
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return sum
+if __name__=='__main__':
+    n=int(input())
+    arr=list(map(int,input().split()))
+    print(bubbleSort(arr,n))
